@@ -13,8 +13,9 @@ print(data)
 ax.plot(data)
 
 ticks = ax.set_xticks([0, 250, 500, 750, 1000])
-# ticks = ax.set_xticks([250, 500, 750, 1000, 1250]) # 这个即使不在data索引范围内，也会展示全部data，这个只做为刻度使用
-labels = ax.set_xticklabels(['one', 'two', 'three', 'four', 'five'], rotation=30, fontsize='small')
+# ticks = ax.set_xticks([250, 500, 750, 1000, 1250])
+# 这个即使不在data索引范围内，也会展示全部data，这个只做为刻度使用
+# labels = ax.set_xticklabels(['one', 'two', 'three', 'four', 'five'], rotation=30, fontsize='small')
 ax.set_title("My first matplotlib plot")
 ax.set_xlabel('Stage')
 
