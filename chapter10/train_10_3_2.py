@@ -13,8 +13,8 @@ def get_stats(group):
     return {'min': group.min(), 'max': group.max(),
             'count': group.count(), 'mean': group.mean()}
 
-group = frame.data2.groupby(quartiles)
-print(group, '\n')
+group = frame.data1.groupby(quartiles)
+# print(group, '\n')
 # for k, v in group:
 #     print(k)
 #     print(v, '\n')
