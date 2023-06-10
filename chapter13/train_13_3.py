@@ -22,3 +22,4 @@ print('X.shape:\n', X.shape, '\n')
 eps = dnorm(0, 0.1, size=N)
 beta = [0.1, 0.3, 0.5]
 y = np.dot(X, beta) + eps
+
